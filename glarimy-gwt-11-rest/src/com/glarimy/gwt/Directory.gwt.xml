@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.1//EN"
+  "http://gwtproject.org/doctype/2.8.1/gwt-module.dtd">
+<module rename-to='Directory'>
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name='com.google.gwt.user.theme.clean.Clean' />
+	<inherits name='com.google.gwt.http.HTTP' />
+	<inherits name="com.google.gwt.json.JSON" />
+	<entry-point class='com.glarimy.gwt.client.DirectoryClient' />
+	<source path='client' />
+	<add-linker name="xsiframe" />
+</module>

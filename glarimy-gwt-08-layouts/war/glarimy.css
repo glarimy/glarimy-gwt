@@ -1,0 +1,16 @@
+h1 {
+	color: #0BB;
+	padding: 5px;
+}
+
+.menu {
+	height: 25px;
+	background-color: #0BB;
+	cursor: pointer;
+	width: 100%;
+	margin: 2px;
+}
+
+.menu:hover {
+	background-color: gray;
+}
